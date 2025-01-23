@@ -3,10 +3,11 @@ int main(){
     int a;
     int count;
     scanf("%d",&a);
-    if(a & 1){
+    while((a & 1)==0){
         a>>=1;
         count++;
-        printf("%d",count);
     }
+    return count;
+    printf("%d",count);
     return 0;
 }
