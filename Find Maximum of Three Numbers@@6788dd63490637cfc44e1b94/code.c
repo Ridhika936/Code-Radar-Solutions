@@ -11,5 +11,6 @@ int main(){
     else{
         printf("%d\n",c);
     }
+    return 0;
     retrun 0;
 }
