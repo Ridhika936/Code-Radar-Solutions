@@ -20,7 +20,7 @@ int main(){
         printf("%d",D);
     }
     }
-    else(x<60){
+    else{
         printf("%d",F);
     }
     retrurn 0;
