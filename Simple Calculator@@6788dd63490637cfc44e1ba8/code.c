@@ -19,11 +19,11 @@ int main(){
             printf("%f",(float)a/b);
             }
             else{
-                printf("Error");
+                printf("error");
             }
             break;
         default:
-            printf("Error");
+            printf("error");
             break;
         }
         return 0;
