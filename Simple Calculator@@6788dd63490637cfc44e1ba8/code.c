@@ -18,7 +18,7 @@ int main(){
             if(b!=0){
             printf("%.2f",(float)a/b);
             }
-            else{
+                else{
                 printf("error");
             }
             break;
