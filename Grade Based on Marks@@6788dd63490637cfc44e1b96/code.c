@@ -1,21 +1,21 @@
 #include <stdio.h>
 int main(){
-    char ch;
-    scanf("%c",&ch);
-    if(ch>=90){
-        printf("%c",'A');
+    int x;
+    scanf("%d",&x);
+    if(x>=90){
+        printf("%d",'A');
     }
-    else if(ch>=80 && ch<90){
-        printf("%c",'B');
+    else if(x>=80 && x<90){
+        printf("%d",'B');
     }
-    else if(ch>=70 && ch<80){
-        printf("%c",'C');
+    else if(x>=70 && x<80){
+        printf("%d",'C');
     }
-    else if(ch>=60 && ch<70){
-        printf("%c",'D');
+    else if(x>=60 && x<70){
+        printf("%d",'D');
     }
     else{
-        printf("%c",'F');
+        printf("%d",'F');
     }
     retrurn 0;
 }
