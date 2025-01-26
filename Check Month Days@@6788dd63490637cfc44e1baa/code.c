@@ -19,7 +19,7 @@ int main(){
             printf("%d",30);
             break;
         case 2:
-            if(x%4==0 && x%100!=0)||(x%400==0){
+            if((x%4==0 && x%100!=0)||(x%400==0)){
                 printf("%d",29);
             }
             else{
