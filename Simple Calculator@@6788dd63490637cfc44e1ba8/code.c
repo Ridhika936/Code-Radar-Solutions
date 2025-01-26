@@ -15,10 +15,15 @@ int main(){
             printf("%d",a*b);
             break;
         case '/':
+            if(b!=0){
             printf("%f",(float)a/b);
+            }
+            else{
+                printf("Error");
+            }
             break;
         default:
-            printf("error");
+            printf("Error");
         }
         return 0;
 }
