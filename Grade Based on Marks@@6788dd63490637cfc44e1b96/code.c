@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int x;
-    char grade;
     scanf("%d",&x);
+    char grade;
     if(x>=90){
         printf("%c",A);
     }
