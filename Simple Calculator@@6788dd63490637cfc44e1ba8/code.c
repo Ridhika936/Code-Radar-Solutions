@@ -21,6 +21,7 @@ int main(){
             else{
                 printf("error");
             }
+            break;
         default:
             printf("error");
         }
