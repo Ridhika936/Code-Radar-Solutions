@@ -2,10 +2,10 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    if((ch>='A' && ch<='Z'))||((ch>='a' && ch<='z')){
+    if(ch>='A' && ch<='Z')||(ch>='a' && ch<='z'){
         printf("Consonant");
     }
-    else if(ch=='a'|| ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+    else if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')|| (ch=='A' || ch=='E' || ch=='I' || ch=='O' || vh=='U'){
         printf("Vowel");
     }
     else if(ch>=0 && ch<=9){
