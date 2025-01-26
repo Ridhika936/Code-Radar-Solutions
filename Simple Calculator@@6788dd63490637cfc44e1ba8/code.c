@@ -18,7 +18,6 @@ int main(){
             printf("%.2f",(float)a/b);
         default:
             printf("error");
-            break;
         }
         return 0;
 }
