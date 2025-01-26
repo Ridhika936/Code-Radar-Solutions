@@ -5,16 +5,16 @@ int main(){
     if(x>=90){
         printf("%d",A);
     }
-    else if((x>=80) && (x<90)){
+        else if((x>=80) && (x<90)){
         printf("%d",B);
     }
-    else if((x>=70) && (x<80)){
+        else if((x>=70) && (x<80)){
         printf("%d",C);
     }
-    else if((x>=60) && (x<70)){
+        else if((x>=60) && (x<70)){
         printf("%d",D);
     }
-    else if(x<60){
+    else(x<60){
         printf("%d",F);
     }
     retrurn 0;
