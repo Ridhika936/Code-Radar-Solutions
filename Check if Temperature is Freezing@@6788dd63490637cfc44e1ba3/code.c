@@ -5,8 +5,5 @@ int main(){
     if(t<=0){
         printf("Freezing");
     }
-    else{
-        printf("Above Freezing");
-    }
     retrun 0;
 }
