@@ -6,7 +6,7 @@ int main(){
         printf("%d",A);
     }
     else{
-         if((x>=80) && (x<90)){
+        if((x>=80) && (x<90)){
         printf("%d",B);
     }
     }
@@ -16,7 +16,7 @@ int main(){
     }
     }
     else{
-         if((x>=60) && (x<70)){
+        if((x>=60) && (x<70)){
         printf("%d",D);
     }
     }
