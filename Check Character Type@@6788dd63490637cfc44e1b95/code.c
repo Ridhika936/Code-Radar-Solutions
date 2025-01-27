@@ -20,15 +20,15 @@ int main(){
                 printf("Consonant");
                 break;
             }
-            else if(ch>='0' && ch<='9'){
-                printf("Digit");
-                break;
-            }
-            else{
+            else {
+                if(ch>='0' && ch<='9'){
+                    printf("Digit");
+                }
+                else{
                 printf("Special Character");
-                break;
             }
-
             }
+            break;
+    }
             return 0;
             }   
