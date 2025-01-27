@@ -18,12 +18,15 @@ int main(){
         default:
             if(ch>='a' && ch<='z')||(ch>='A' && ch<='Z'){
                 printf("Consonant");
+                break;
             }
             else if(ch>='0' && ch<='9'){
                 printf("Digit");
+                break;
             }
             else{
                 printf("Special Character");
+                break;
             }
 
             }
