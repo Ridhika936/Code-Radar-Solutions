@@ -2,27 +2,27 @@
 int main(){
     float a,b;
     char ch;
-    scanf("%f%f",&a,&b);
+    scanf("%f%f%c",&a,&b,&ch);
     switch(ch){
         case '+':
-            printf("%.2f",a+b);
+            printf("%.0f",a+b);
             break;
         case '-':
-            printf("%.2f",a-b);
+            printf("%.0f",a-b);
             break;
         case '*':
-            printf("%.2f",a*b);
+            printf("%.0f",a*b);
             break;
         case '/':
             if(b!=0){
-                printf("%.2f",a/b);
+                printf("%.0f",a/b);
             }
                 else{
-                printf("error");
+                printf("Error");
             }
             break;
         default:
-            printf("error");
+            printf("Error");
             break;
         }
         return 0;
