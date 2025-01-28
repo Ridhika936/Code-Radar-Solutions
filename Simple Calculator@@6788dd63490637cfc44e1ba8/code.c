@@ -18,7 +18,7 @@ int main(){
                 printf("error\n");
             }
                 else{
-                    printf("%f\n",(float)a/b);
+                    printf("%.0f\n",(float)a/b);
                 }
             break;
         default:
