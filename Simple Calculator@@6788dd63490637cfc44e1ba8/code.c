@@ -15,14 +15,14 @@ int main(){
             break;
         case '/':
             if(b==0){
-                printf("Error\n");
+                printf("error\n");
                 else{
                     printf("%f\n",(float)a/b);
                 }
             break;
         }
         default:
-            printf("Error");
+            printf("error");
             break;
     }
         return 0;
