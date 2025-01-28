@@ -2,7 +2,7 @@
 int main(){
     int x,i,k=0;
     scanf("%d",&x);
-for(i=1;i<=x,i++){
+for(i=1;i<=x;i++){
     if(x%i==0){
         k++;
     }
