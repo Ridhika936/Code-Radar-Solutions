@@ -16,11 +16,11 @@ int main(){
         case '/':
             if(b==0){
                 printf("error\n");
+            }
                 else{
                     printf("%f\n",(float)a/b);
                 }
             break;
-        }
         default:
             printf("error");
             break;
