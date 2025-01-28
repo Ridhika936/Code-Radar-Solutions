@@ -7,7 +7,7 @@ int main(){
             k++;
         }
 }
-if(x==2){
+if(k==2){
     printf("Prime");
 }
 else{
