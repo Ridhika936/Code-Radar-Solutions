@@ -1,13 +1,16 @@
 #include <stdio.h>
 int main(){
-    int x;
-    scanf("%d",&x);
-    if(x==0){
-        return 0;
+    int n;
+    scanf("%d",&n);
+    if(n==0){
+        printf("0");
+        else{
+            for(int i=31;i>=0;i--){
+                if((n>>i) & 1){
+                    printf("1");
+        }
+            }
+        }
     }
-    while(x>0){
-        printf("%d",x & 1);
-        x=x>>1;
-}
-        return 0;
-}
+    return 0;
+    }
