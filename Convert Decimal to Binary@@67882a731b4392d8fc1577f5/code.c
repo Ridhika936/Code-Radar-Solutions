@@ -4,13 +4,12 @@ int main(){
     scanf("%d",&n);
     if(n==0){
         printf("0");
+    }
         else{
             for(int i=31;i>=0;i--){
-                if((n>>i) & 1){
-                    printf("1");
+                int bit=(n>>i) & 1;
+                    printf("%d",bit);
         }
             }
-        }
-    }
-    return 0;
+            return 0;
     }
