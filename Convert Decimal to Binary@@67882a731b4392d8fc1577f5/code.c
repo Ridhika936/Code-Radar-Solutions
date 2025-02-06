@@ -6,8 +6,8 @@ int main(){
         printf("0");
     }
     else{
-            firstbit=0;
-            for(int i=31;i>=0;i--){
+        int firstbit=0;
+        for(int i=31;i>=0;i--){
         int bit = (n>>i) & 1;
         if(bit==1||firstbit){
             printf("%d",bit);
