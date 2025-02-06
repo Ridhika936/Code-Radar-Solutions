@@ -2,6 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
+    if(n==0){
+        printf("error");
+        return 0;
+    }
     int rightmost=n & -n;
     int position =0;
     while(right>1){
