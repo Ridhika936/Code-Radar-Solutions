@@ -8,8 +8,8 @@ int main(){
     }
     int rightmost=n & -n;
     int position =0;
-    while(right>1){
-        right>>=1;
+    while(rightmost>1){
+        rightmost>>=1;
         position++;
     }
     printf("%d",position);
