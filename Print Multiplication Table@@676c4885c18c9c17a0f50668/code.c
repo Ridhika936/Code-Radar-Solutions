@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int product=1;
+    int product;
     for(int i=1;i<=10;i++){
         n * i = product;
         }
