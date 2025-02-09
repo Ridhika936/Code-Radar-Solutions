@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int product;
     for(int i=1;i<=10;i++){
-        n * i = product;
+        product = n * i;
         }
         printf("%d",product);
         return 0;
