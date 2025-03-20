@@ -17,7 +17,7 @@ int main(){
 				arr[j]=visited;
 			}
 		}
-		printf("\n%d %d",arr[i],count);
+		printf("%d %d",arr[i],count);
 	}
 	return 0;
 }
