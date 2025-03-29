@@ -1,5 +1,4 @@
 #include<stdio.h>
-int main(){
     int sorted(int arr[],int n){
         int i;
         for(int i=0;i<n;i++){
