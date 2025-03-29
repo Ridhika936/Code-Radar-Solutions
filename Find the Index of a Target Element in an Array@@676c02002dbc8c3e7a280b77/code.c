@@ -16,7 +16,7 @@ int main(){
     }
     int x;
     scanf("%d",&x);
-    findindex(arr,n,x);
-    printf("%d",i);
+    int result=findindex(arr,n,x);
+    printf("%d",result);
     return 0;
 }
