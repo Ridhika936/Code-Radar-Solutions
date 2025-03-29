@@ -15,8 +15,8 @@ int isPalindromicArray(int arr[], int size) {
 }
 
 int main() {
-    int n;
-    scanf("%d",&n);
+    int size;
+    scanf("%d",&size);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
