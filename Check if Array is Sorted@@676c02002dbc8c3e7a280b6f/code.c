@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     void sorted(int arr[],int n){
+        int i;
         if(arr[i]>arr[i+1]){
             return 0;
         }
