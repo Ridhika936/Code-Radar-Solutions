@@ -8,6 +8,7 @@
     }
     return 1;
     }
+    int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
