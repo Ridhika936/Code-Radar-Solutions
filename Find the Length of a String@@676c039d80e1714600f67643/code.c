@@ -5,12 +5,10 @@ int main(){
 	scanf("%s",s1);
 	int size=0;
 	int i=0;
-	while(s1[i]!='\0'){
-        if(s1[i]==' ' || s1[i]!=' '){
+	while(s1[i]!='\0' && s1[i]!='\0'){
 		size++;
         }
 		i++;
-	}
 	printf("%d",size);
 	return 0;
 }
