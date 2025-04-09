@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main(
+int main(){
     char s1[100];
     scanf("\n%s",s1);
     char x;
@@ -12,4 +12,4 @@ int main(
     }
     printf("\n%d",count);
     return 0;
-)
+}
