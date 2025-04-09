@@ -12,6 +12,8 @@ int main(){
             s1[i]=replace;
         }
     }
+    for(int i=0;s1[i]!='\0';i++){
     printf("%s",s1);
+    }
     return 0;
 }
