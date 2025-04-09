@@ -9,7 +9,7 @@ int main() {
         // Check if character is a vowel (lowercase or uppercase) or space
         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' ||
             str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U' ||
-            str[i] == ' ') {
+            str[i] == ' ' || str[i]>=0 || str[i]<=9) {
             result[j] = str[i];  // keep the vowel or space
             j++;
         }
