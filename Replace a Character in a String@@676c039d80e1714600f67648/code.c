@@ -4,6 +4,7 @@ int main(){
     char s1[100];
     scanf("%s",s1);
     char find;
+    char replace;
     scanf("%c",&find);
     scanf("%c",&replace);
     char replace;
