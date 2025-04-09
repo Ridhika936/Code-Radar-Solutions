@@ -5,6 +5,7 @@ int main(){
     scanf("\n%s",s1);
     char x;
     scanf("\n%c",&x);
+    int count=0;
     for(int i=0;s1[i]!='\0';i++){
         if(s1[i]==x){
             count++;
