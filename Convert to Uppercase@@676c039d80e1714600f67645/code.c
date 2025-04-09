@@ -14,7 +14,7 @@ int main() {
     }
 
     if (isAlreadyUpper) {
-        printf("\n%c", str);
+        printf("%c", str);
     } else {
         printf("%s\n",str);
     }
