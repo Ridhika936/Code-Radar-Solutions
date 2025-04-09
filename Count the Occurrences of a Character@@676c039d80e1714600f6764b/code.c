@@ -10,7 +10,8 @@ int main(){
         if(s1[i]==x){
             count++;
         }
+        printf("\n%d",count);
     }
-    printf("\n%d",count);
+
     return 0;
 }
