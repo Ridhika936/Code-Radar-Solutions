@@ -5,8 +5,6 @@ int main() {
     int count[256] = {0};  // For all ASCII characters
     int i, max = 0;
     char mostFreq;
-
-    printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
     // Count frequency of each character
