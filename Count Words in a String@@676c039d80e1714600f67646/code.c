@@ -6,7 +6,7 @@ int main(){
     int i=0;
     int words=1;
     while(s1[i]!='\0'){
-        if((i == 0 && str[i] != ' ') || (str[i] != ' ' && str[i-1] == ' ')){
+        if((i == 0 && s1[i] != ' ') || (s1[i] != ' ' && s1[i-1] == ' ')){
             words++;
         }
     i++;
