@@ -2,20 +2,27 @@
 #include <string.h>
 
 int main() {
-    char s1[100];
-    scanf("%s", s1);
+    char str[200];
+    int i, j, count;
+    scanf(" %[^\n]", str);  // Read line with spaces
 
-    int freq[256] = {0};
+    int len = strlen(str);
+    for (i = 0; i < len; i++) {
+        count = 0;
 
-    // Count frequency of each character
-    for (int i = 0; s1[i] != '\0'; i++) {
-        freq[(int)s1[i]]++;
-    }
+        // Skip spaces if you don't want to consider them
+        if (str[i] == ' ')
+            continue;
 
-    // Find the first character with frequency 1
-    for (int i = 0; s1[i] != '\0'; i++) {
-        if (freq[(int)s1[i]] == 1) {
-            printf("%c\n", s1[i]);
+        for (j = 0; j < len; j++) {
+            if (str[i] == str[j] && i != j) {
+                count++;
+                break;
+            }
+        }
+
+        if (count == 0) {
+            printf("%c\n", str[i]);
             return 0;
         }
     }
