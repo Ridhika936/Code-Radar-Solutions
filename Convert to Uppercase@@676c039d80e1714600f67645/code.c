@@ -10,7 +10,7 @@ int main() {
             isAlreadyUpper = 0; // Found a lowercase letter
             str[i] = str[i] - 32; // Convert to uppercase
         }
-        if()
+        
     }
 
     if (isAlreadyUpper) {
