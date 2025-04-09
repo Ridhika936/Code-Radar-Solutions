@@ -9,11 +9,9 @@ int main(){
                 printf("%c",s1[i]);
                 break;
             }
-            else{
-                printf("-");
-            }
         }
     }
+    printf("-");
     return 0;
     
 }
