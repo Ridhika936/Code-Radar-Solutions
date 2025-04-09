@@ -10,12 +10,13 @@ int main() {
             isAlreadyUpper = 0; // Found a lowercase letter
             str[i] = str[i] - 32; // Convert to uppercase
         }
+        if()
     }
 
     if (isAlreadyUpper) {
-        printf("%s\n", str);
+        printf("%s\n",str);
     } else {
-        printf("%s\n", str);
+        printf("%s\n",str);
     }
 
     return 0;
