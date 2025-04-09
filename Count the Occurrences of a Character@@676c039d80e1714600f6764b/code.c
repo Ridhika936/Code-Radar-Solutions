@@ -4,7 +4,7 @@ int main(){
     char s1[100];
     scanf("%s",s1);
     char x;
-    scanf("%c",&x);
+    scanf("%c\n",&x);
     int count=0;
     for(int i=0;s1[i]!='\0';i++){
         if(s1[i]==x){
