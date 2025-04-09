@@ -2,15 +2,21 @@
 
 int main() {
     char str[100];
+    int isAlreadyUpper = 1;
     scanf("%s", str);
 
     for (int i = 0; str[i] != '\0'; i++) {
-        // If character is lowercase
         if (str[i] >= 'a' && str[i] <= 'z') {
-            str[i] = str[i] - 32;  // Convert to uppercase
+            isAlreadyUpper = 0; // Found a lowercase letter
+            str[i] = str[i] - 32; // Convert to uppercase
         }
     }
 
-    printf("%s\n", str);
+    if (isAlreadyUpper) {
+        printf("%s\n", str);
+    } else {
+        printf("%s\n", str);
+    }
+
     return 0;
 }
