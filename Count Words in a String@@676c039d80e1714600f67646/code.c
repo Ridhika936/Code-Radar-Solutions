@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char s1[100];
-     fgets(str, sizeof(str), stdin);
+     fgets(s1, sizeof(s1), stdin);
     int i=0;
     int words=0;
     while(s1[i]!='\0'){
