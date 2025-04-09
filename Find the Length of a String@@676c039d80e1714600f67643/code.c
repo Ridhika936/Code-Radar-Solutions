@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-	char s1[20];
+	char s1[100];
 	scanf("%s",s1);
-	printf("%s",s1);
 	int size=0;
 	int i=0;
 	while(s1[i]!='\0'){
