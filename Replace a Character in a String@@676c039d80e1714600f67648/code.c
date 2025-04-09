@@ -6,8 +6,8 @@ int main(){
     char find;
     char replace;
     scanf("%c", &find);
-    scanf("%c", &replace);
     char replace;
+    scanf("%c", &replace);
     for(int i=0;s1[i]!='\0';i++){
         if(s1[i]==find){
             s1[i]=replace;
