@@ -6,7 +6,9 @@ int main(){
 	int size=0;
 	int i=0;
 	while(s1[i]!='\0'){
+        if(s1[i]!='\n'){
 		size++;
+        }
 		i++;
 	}
 	printf("%d",size);
