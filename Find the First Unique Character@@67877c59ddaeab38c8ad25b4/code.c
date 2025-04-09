@@ -7,7 +7,6 @@ int main(){
         for(int j=i+1;s1[j]!='\0';j++){
             if(s1[i]!=s1[j]){
                 printf("%c",s1[i]);
-                break;
             }
             else{
                 printf("-");
