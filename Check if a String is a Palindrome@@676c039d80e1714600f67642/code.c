@@ -5,7 +5,7 @@ int main(){
     scanf("%s",s1);
     int i=0;
     int flag=0;
-    l=strlen(s1);
+    int l=strlen(s1);
     for(i=0;i<l/2;i++){
         if(s1[i]!=s1[l-i-1]){
             flag=1;
