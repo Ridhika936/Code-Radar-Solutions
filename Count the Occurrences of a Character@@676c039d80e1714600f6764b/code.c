@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char s1[100];
-    scanf("\n%s",s1);
+    scanf("%s",s1);
     char x;
     scanf("\n%c",&x);
     int count=0;
