@@ -3,7 +3,6 @@
 
 int main() {
     char s1[100];
-    printf("Enter a string: ");
     scanf("%s", s1);
 
     int freq[256] = {0};
